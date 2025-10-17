@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/you/ecommerce-go/internal/product"
+	"github.com/dilroop-us/ecommerce-go/internal/product"
 )
 
 func TestPing(t *testing.T) {

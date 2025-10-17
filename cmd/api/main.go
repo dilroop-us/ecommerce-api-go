@@ -10,9 +10,9 @@ import (
 
 	"go.uber.org/zap"
 
-	apphttp "github.com/you/ecommerce-go/internal/http"
-	"github.com/you/ecommerce-go/internal/platform/logger"
-	"github.com/you/ecommerce-go/internal/product"
+	apphttp "github.com/dilroop-us/ecommerce-go/internal/http"
+	"github.com/dilroop-us/ecommerce-go/internal/platform/logger"
+	"github.com/dilroop-us/ecommerce-go/internal/product"
 )
 
 func main() {

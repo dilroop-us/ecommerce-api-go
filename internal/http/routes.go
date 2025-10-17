@@ -3,9 +3,9 @@ package http
 import (
 	"net/http"
 
+	"github.com/dilroop-us/ecommerce-go/internal/platform/requestid"
+	"github.com/dilroop-us/ecommerce-go/internal/product"
 	"github.com/gin-gonic/gin"
-	"github.com/you/ecommerce-go/internal/platform/requestid"
-	"github.com/you/ecommerce-go/internal/product"
 )
 
 func Router(store *product.Store) *gin.Engine {
