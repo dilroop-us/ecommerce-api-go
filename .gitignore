@@ -1,15 +1,42 @@
-# binaries
-bin/
+# --- Go build output ---
 *.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
 *.out
 
-# dependencies / build
-vendor/
+# --- Go build & cache directories ---
+bin/
+build/
+dist/
 coverage.out
 
-# IDE files
+# --- Dependency & vendor folders ---
+vendor/
+
+# --- Environment & config ---
+.env
+.env.*
+*.local
+
+# --- Logs ---
+*.log
+logs/
+tmp/
+
+# --- IDE / Editor files ---
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# environment files
-.env
+# --- OS files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Docker volumes (if any were accidentally created) ---
+db_data/
+postgres-data/
