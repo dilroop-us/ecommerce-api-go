@@ -1,0 +1,15 @@
+# binaries
+bin/
+*.exe
+*.out
+
+# dependencies / build
+vendor/
+coverage.out
+
+# IDE files
+.vscode/
+.idea/
+
+# environment files
+.env
